@@ -1,0 +1,12 @@
+[package]
+name = "beacon_block_lodestar_classifier"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+emojis = "0.6.0"
+types = { git = "https://github.com/sigp/lighthouse", branch = "stable" }
+unicode-segmentation = "1.10.1"
+
